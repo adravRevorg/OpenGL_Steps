@@ -108,50 +108,10 @@ void setup_objects() {
 
 	setup_VAO_VBO(VAO[0], VBO[0], EBO , vertices, sizeof(vertices), indices, sizeof(indices));
 	setup_VAO_VBO(VAO[1], VBO[1], EBO , vertices1, sizeof(vertices1), indices, sizeof(indices));
-	/*
-	//bind for 1st VAO, VBO, EBO
-	glBindVertexArray(VAO[0]);
-	glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-
-	//share configuation (position and color)
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
-	glEnableVertexAttribArray(1);
-
-	//unbind
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
-	glBindVertexArray(0);
-	
-	//------------------------------------------
-
-	//bind for 2nd VAO, VBO, EBO
-	glBindVertexArray(VAO[1]);
-	glBindBuffer(GL_ARRAY_BUFFER, VBO[1]);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices1), vertices1, GL_STATIC_DRAW);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-
-	//share configuation (position and color)
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
-	glEnableVertexAttribArray(1);
-
-	//unbind
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
-	glBindVertexArray(0);
-	*/
-
-
 }
 
 void setup_VAO_VBO(unsigned int VAO, unsigned int VBO, unsigned int EBO,  float vertices[], int vn, unsigned int indices[], int in) {
 
-	cout << vn << " ";
 	//bind
 	glBindVertexArray(VAO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
@@ -211,7 +171,7 @@ void processInput(GLFWwindow* window) {
 
 
 /* Summary Notes
-- DRaw two triangles sing two VAO, and VBO
+- Draw two triangles sing two VAO, and VBO
 - VAO[2], VBO[2]
 - glGenVertexArrays(2,VAO) -> generate two vao
 - 
