@@ -6,6 +6,7 @@
 #include <iostream>
 using namespace std;
 
+
 //settings
 #define WIDTH 800
 #define HEIGHT 800
@@ -20,6 +21,8 @@ void renderLoop();
 void display();
 void processInput(GLFWwindow* window);
 void termination();
+
+
 
 
 //SHADERS
