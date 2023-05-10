@@ -11,4 +11,6 @@ Summary notes are provided at the end of each program.
     - Solid color, changing with time (Use of uniforms)
     - Interpolated color fill in triangle
  3. Shader Class (to create shaders)
- 4. Use of multiple VAO, VBO
+ 4. Use of multiple VAO, VBO  
+    - Use multiple VAO to draw two triangles
+    - Use multiple VAO, and multiple shaders to draw two triangles (one with uniform, one with interpolation)
