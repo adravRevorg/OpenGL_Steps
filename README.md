@@ -1,5 +1,5 @@
 # OpenGL_Steps
-A step by step flow for learning OpenGL  
+A step by step flow for learning modern OpenGL  
 Based on the guide by: https://learnopengl.com/
 
 Summary notes are provided at the end of each program.
@@ -14,3 +14,5 @@ Summary notes are provided at the end of each program.
  4. Use of multiple VAO, VBO  
     - Use multiple VAO to draw two triangles
     - Use multiple VAO, and multiple shaders to draw two triangles (one with uniform, one with interpolation)
+ 5. Use of textures
+    - Application of a texture to a triangle  
