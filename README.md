@@ -16,3 +16,4 @@ Summary notes are provided at the end of each program.
     - Use multiple VAO, and multiple shaders to draw two triangles (one with uniform, one with interpolation)
  5. Use of textures
     - Application of a texture to a triangle  
+    - Application of a texture to a rectangle
