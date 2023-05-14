@@ -27,3 +27,12 @@ Summary notes provided at the end of each program, for a brief overview.
     - A textured cube (Move from plane to cube)
     - Use of Z-buffer to get depth accurate results
     - Display multiple cubes by changing the model matrix
+    - Display interpolated color on cube faces
+
+ 7. Camera 
+    - Simple linear camera motion (via view matrix)
+ 
+ 8. User Interactivity
+    - Mouse button callback
+    - Cursor callback
+    - Key callback
