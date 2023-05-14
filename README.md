@@ -1,9 +1,10 @@
-# OpenGL_Steps
-A step by step flow for learning modern OpenGL  
-Based on the guide by: https://learnopengl.com/
+### Learn and Practice modern OpenGL
+  
+A step by step flow for learning modern OpenGL.  
+**Following the guide and layout by Joey De Vries: https://learnopengl.com/**
 
-Summary notes are provided at the end of each program.
-
+Summary notes provided at the end of each program, for a brief overview.  
+  
 1. A solid colored window
 2. Triangles  
     - Solid colored triangle
@@ -19,3 +20,10 @@ Summary notes are provided at the end of each program.
     - Application of a texture to a rectangle
     - Apply a mix of two textures
     - Animate the interpolation of two textures
+
+ 6. Transformations and Coordinate Systems
+    - Use of matrices for transformations (Rotate and scale the plane) 
+    - Various coordinate systems involved
+    - A textured cube (Move from plane to cube)
+    - Use of Z-buffer to get depth accurate results
+    - Display multiple cubes by changing the model matrix
