@@ -5,16 +5,20 @@ A step by step flow for learning modern OpenGL.
 
 Summary notes provided at the end of each program, for a brief overview.  
   
-1. A solid colored window
-2. Triangles  
+1. A solid colored window  
+
+2. Triangles
     - Solid colored triangle
     - Solid rectangle using the above code
     - Solid color, changing with time (Use of uniforms)
-    - Interpolated color fill in triangle
- 3. Shader Class (to create shaders)
- 4. Use of multiple VAO, VBO  
+    - Interpolated color fill in triangle    
+
+ 3. Shader Class (to create shaders)  
+
+ 4. Use of multiple VAO, VBO
     - Use multiple VAO to draw two triangles
-    - Use multiple VAO, and multiple shaders to draw two triangles (one with uniform, one with interpolation)
+    - Use multiple VAO, and multiple shaders to draw two triangles (one with uniform, one with interpolation)  
+
  5. Use of textures
     - Application of a texture to a triangle  
     - Application of a texture to a rectangle
@@ -31,8 +35,14 @@ Summary notes provided at the end of each program, for a brief overview.
 
  7. Camera 
     - Simple linear camera motion (via view matrix)
+    - Creating a basic camera class (does the same as above)
+    - Have option to move camera using WASD
  
  8. User Interactivity
     - Mouse button callback
     - Cursor callback
     - Key callback
+
+ 9. Basic Lighting
+    - Object color and a basic light
+    - Basic lighting (ambient, diffuse, specular)
